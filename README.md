@@ -1,6 +1,6 @@
-virtualenv -ppython3 .env
+virtualenv -ppython3 websocket-demo
 
-./env/bin/activate
+source ./websocket-demo/bin/activate
 
 pip install -r requirements.txt
 
